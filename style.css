@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #F5F5F7;
+
+}
+
+/* -----Header starts------- */
+
+header {
+    padding: 15px 0;
+    background-color: #F5F5F7;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0, .7);
+    letter-spacing: 0.01em;
+    transition: 0.5s;
+}
+
+header nav ul a:hover {
+    color: black;
+}
+
+header nav ul i {
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+/* -----Header ends------- */
+
+
+
+
+/* -----Hero starts------- */
+#hero .popup {
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+}
+
+#hero p a {
+    text-decoration: none;
+    color: #0071e3;
+}
+
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.row1 h1 {
+    padding-left: 140px;
+    font-size: 46px;
+    color: #6e6e73;
+    font-weight: 600;
+}
+
+span {
+    color: #1d1d1f;
+}
+
+.row1 .portions {
+    padding-right: 10%;
+}
+
+.portions a {
+    text-decoration: none;
+    color: #0071e3;
+    padding-left: 10px;
+}
+
+.portions a:hover {
+    text-decoration: underline;
+}
+
+.portions p {
+    padding-left: 10px;
+}
+
+.first-portion {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.second-portion {
+    display: flex;
+}
+
+.second-portion img {
+    width: 39px;
+}
+
+.row2 img {
+    width: 120px;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    padding: 1% 0 6% 0;
+}
+
+.card-container a {
+    display: block;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1d1d1f;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.card-container a:hover {
+    text-decoration: underline;
+}
+
+/* --------------Hero endss------------ */
+
+/* ----------Second,Third section starts---------- */
+.sub-heading {
+    color: #6e6e73;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: .008em;
+    padding-left: 140px;
+}
+
+.card-container {
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-left: 140px;
+}
+
+.card-container .scrolling-card {
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 500px;
+    min-width: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 2% 20px 5% 0;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px #00000020;
+    transition: 0.2s ease-in-out;
+}
+
+.card-container .scrolling-card:hover {
+    transform: scale(1.01);
+    box-shadow: rgb(93, 94, 95) 0px 15px 20px -10px;
+}
+
+.card-container .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-container .scrolling-card .card-text {
+    position: absolute;
+    color: white;
+    padding: 30px 53px 30px 30px;
+    ;
+    text-align: left;
+    top: 0;
+}
+
+.card-container .scrolling-card .card-text .card-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #f5f5f7;
+}
+
+.card-container .scrolling-card .card-text .card-heading {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 14px 0;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card-container .scrolling-card .card-text .card-p {
+    font-size: 17px;
+}
+
+.card-container .scrolling-card .card-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.card-container .scrolling-card .card-banner .playbtn {
+    background-color: rgb(223, 220, 220);
+    color: grey;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+/* ----------second,third section endss---------- */
+
+
+/* ----------Forth section startss---------- */
+
+#fourth-row .card-container .scrolling-card {
+    position: relative;
+    padding: 30px 0;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 240px;
+    min-width: 320px;
+    margin: 2% 20px 5% 0;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px #00000020;
+    transition: 0.2s ease-in-out;
+}
+
+#fourth-row .card-container .scrolling-card:hover {
+    transform: scale(1.01);
+    box-shadow: rgb(12, 12, 12) 0px 15px 20px -10px;
+}
+
+#fourth-row .scrolling-card i {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 40px;
+}
+
+#fourth-row .scrolling-card .card-text {
+    padding-top: 70px;
+    padding-right: 0;
+}
+
+#fourth-row .scrolling-card .card-text h3 {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+}
+
+/* ----------Forth section endss---------- */
+
+
+/* ----------Fifth section starts---------- */
+
+#fifth-row .card-container .scrolling-card {
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 500px;
+    min-width: 320px;
+    background-color: white;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 2% 20px 5% 0;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px #00000014;
+    transition: 0.2s ease-in-out;
+}
+
+#fifth-row .card-container .scrolling-card:hover {
+    transform: scale(1.01);
+    box-shadow: rgb(93, 94, 95) 0px 15px 20px -10px;
+}
+
+.card-container .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.short-image {
+    margin-top: 100px;
+}
+
+#fifth-row .card-text {
+    padding-top: 350px;
+    padding-right: 0;
+}
+
+#fifth-row .card-text .card-heading {
+    color: black;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#fifth-row .card-text .card-p {
+    color: rgb(96, 96, 96);
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 11px;
+}
+
+/* ----------Fifth section ends---------- */
+
+
+/* ----------Sixt section Starts---------- */
+#sixth-row .card-container .scrolling-card {
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 500px;
+    min-width: 320px;
+    background-color: white;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 2% 20px 5% 0;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px #00000014;
+    transition: 0.2s ease-in-out;
+}
+
+#sixth-row .card-container .scrolling-card:hover {
+    transform: scale(1.01);
+    box-shadow: rgb(93, 94, 95) 0px 15px 20px -10px;
+}
+
+.card-container .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.short-image {
+    margin-top: 100px;
+}
+
+#sixth-row .card-text {
+    padding-top: 350px;
+    padding-right: 0;
+}
+
+#sixth-row .card-text .card-heading {
+    color: black;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+#sixth-row .card-text .card-p {
+    color: rgb(96, 96, 96);
+    font-weight: 100;
+    font-size: 14px;
+    padding-top: 11px;
+}
+
+/* ----------Sixt section ends---------- */
+
+/* ----------Ninth section Starts---------- */
+#ninth-row .btn-container {
+    display: flex;
+    padding-left: 140px;
+    padding-top: 2%;
+}
+
+#ninth-row .btn-container a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#ninth-row .btn-container a:hover {
+    color: white;
+    background-color: #272729;
+}
+
+/* ----------Ninth section ends---------- */
+
+/* --------------------Footer-------------------- */
+
+/* first section */
+#first-footer {
+    padding: 3.5% 19% 0 19%;
+    font-size: 12px;
+}
+
+#first-footer .para-container {
+    border-bottom: 1px solid rgb(141, 140, 140);
+    padding-bottom: 15px;
+}
+
+#first-footer p {
+    padding-top: 10px;
+    letter-spacing: -.01em;
+    line-height: 1.3333733333;
+    color: rgb(141, 140, 140);
+}
+
+#first-footer a {
+    color: #000000b8;
+    ;
+}
+
+/* second section */
+#second-footer {
+    padding: 0 19%;
+
+}
+
+#second-footer .footer-apple {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#second-footer .footer-apple i {
+    font-size: 17px;
+    margin-right: 20px;
+    color: #272729;
+}
+
+#second-footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-footer .footer-container h4 {
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .01em;
+}
+
+#second-footer .footer-container li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.footer-container li a {
+    font-size: 12px;
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.footer-container li a:hover {
+    text-decoration: underline;
+}
+
+#second-footer .div {
+    padding-top: 15px;
+}
+
+#second-footer .footer-text {
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+#second-footer .footer-text a {
+    color: #0071e3;
+}
+
+#second-footer .second-border {
+    border-bottom: 1px solid rgb(141, 140, 140);
+}
+
+#second-footer .div2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 12px;
+    color: rgb(141, 140, 140);
+}
+
+#second-footer .div2 a {
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+}
+
+#second-footer .div2 a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------Footer-------------------- */
